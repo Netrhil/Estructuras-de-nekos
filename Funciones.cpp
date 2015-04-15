@@ -66,7 +66,7 @@ cout<<" *-----  Mostrando Polinomios -----*"<<endl;
     for(int i=0;i<Num;i++){
         for(int j=0;j<Pol[i].Grado-2;j++){
             for(int z=0;z<Pol[i].Grado+1;z++){
-                Pol[i].Coeficientes[z+1]=(Pol[i].Raiz[j])*(Pol[i].Coeficientes[z])+(Pol[i].Coeficientes[z+1]);
+                Pol[i].Coeficientes[z+1]=(Pol[i].Raizes[j])*(Pol[i].Coeficientes[z])+(Pol[i].Coeficientes[z+1]);
            }
 
         }
