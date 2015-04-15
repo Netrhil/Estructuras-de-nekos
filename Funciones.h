@@ -9,6 +9,7 @@ typedef struct{
 void LlenarPol(Polinomio [], int );
 void Mostrarpolinomios(Polinomio [], int);
 void CalcularRaizes(float []);
+ void ReducRufini(Polinomio [],int);
 
 
 #endif // FUNCIONES_H_INCLUDED
