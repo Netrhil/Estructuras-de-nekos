@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Funciones.h"
 
 using namespace std;
@@ -12,9 +11,7 @@ int main()
     cin>>Numpol;
     Polinomio Arreglo[Numpol];
     LlenarPol(Arreglo, Numpol);
-    Mostrarpolinomios(Arreglo, Numpol);
-    float Hola[]={1,0,-4};
-    CalcularRaizes(Hola);
+    ReducRufini(Arreglo,Numpol);
 
 
     return 0;
