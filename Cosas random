@@ -1,9 +1,0 @@
-
- void CalcularRaizes(float Arreglo[]){
-   float result1,result2,a=Arreglo[2],b=Arreglo[1],c=Arreglo[0];
-    result1=(-b+(sqrt(pow(b,2)-4*a*c) ))/(2*a);
-    result2=(-b-(sqrt(pow(b,2)-4*a*c) ))/(2*a);
-     cout<<result1<<" , "<<result2;
-
-
- }
